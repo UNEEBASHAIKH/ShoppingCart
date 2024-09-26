@@ -29,7 +29,7 @@ const Product = () => {
     }, [productId]);
 
     return (
-        <div className="container" style={{ color: "rgb(166,204,190)" }}>
+        <div className="container" style={{ color: "rgb(245,242,236)" }}>
             {product ?
                 <div className="mt-5">
                     <div>
