@@ -29,7 +29,7 @@ const Product = () => {
     }, [productId]);
 
     return (
-        <div className="container" style={{ color: "rgb(102, 0, 51)" }}>
+        <div className="container" style={{ color: "rgb(166,204,190)" }}>
             {product ?
                 <div className="mt-5">
                     <div>
@@ -90,7 +90,7 @@ const Product = () => {
                 </div>
                 :
                 <div className="d-flex justify-content-center">
-                    <div className="spinner-border mt-5" role="status" style={{ color: "rgb(102, 0, 51)" }}>
+                    <div className="spinner-border mt-5" role="status" style={{ color: "rgb(166,204,190)" }}>
                         <span className="visually-hidden">Loading...</span>
                     </div>
                 </div>
