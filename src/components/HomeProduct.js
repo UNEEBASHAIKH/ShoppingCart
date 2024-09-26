@@ -14,10 +14,10 @@ const Homeproduct = (props) => {
         <div className='' style={{ position: "relative" }} key={product.id}>
             <div className="card m-5" style={{ width: "20em", border: "none", textDecoration: "none" }} ref={ref}>
                 <div className="d-flex justify-content-center">
-                    <img src={product.image} className="card-img-top" alt={product.title} style={{maxWidth: "20em", height: "20em" }}  />
+                    <img src={product.image} className="card-img-top" alt={product.title} style={{maxWidth: "18em", height: "18em" }}  />
                     <div className="mb-2"></div>
                 </div>
-                <div className="card-body text-white d-flex justify-content-between" style={{ backgroundColor: "rgb(37, 37, 37)", borderBottomLeftRadius: 10, borderBottomRightRadius: 10 }}>
+                <div className="card-body text-white d-flex justify-content-between" style={{ backgroundColor: "rgb(166,204,190)", borderBottomLeftRadius: 10, borderBottomRightRadius: 10 }}>
                     <div>
                         {product.title}
                     </div>
@@ -31,7 +31,7 @@ const Homeproduct = (props) => {
             </div>
             <Link to={"/products/" + product.id}>
                 {ref.current != null ?
-                    <div className='m-5 bg-dark' style={{ position: "absolute", top: "0px", width: "20em", height: height, opacity: 0, borderRadius: 10 }}
+                    <div className='m-5 bg-dark' style={{ position: "absolute", top: "0px", width: "15em", height: height, opacity: 1.2, borderRadius: 15 }}
                         onMouseEnter={(e) => e.target.style.opacity = 0.3}
                         onMouseLeave={(e) => e.target.style.opacity = 0} />
                     :
