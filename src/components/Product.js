@@ -90,7 +90,7 @@ const Product = () => {
                 </div>
                 :
                 <div className="d-flex justify-content-center">
-                    <div className="spinner-border mt-5" role="status" style={{ color: "rgb(166,204,190)" }}>
+                    <div className="spinner-border mt-5" role="status" style={{ color: "rgb(101,84,152)" }}>
                         <span className="visually-hidden">Loading...</span>
                     </div>
                 </div>
