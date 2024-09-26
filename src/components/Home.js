@@ -29,7 +29,7 @@ const Home = () => {
                         return <HomeProduct product= {product} key={product.id}/>
                     })
                     :
-                    <div className="spinner-border mt-5" role="status" style={{ color: "rgb(102, 0, 51)" }}>
+                    <div className="spinner-border mt-5" role="status" style={{ color: "rgb(193,36,107)" }}>
                         <span className="visually-hidden">Loading...</span>
                     </div>
                 }
