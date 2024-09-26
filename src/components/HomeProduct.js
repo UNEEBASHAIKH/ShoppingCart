@@ -17,7 +17,7 @@ const Homeproduct = (props) => {
                     <img src={product.image} className="card-img-top" alt={product.title} style={{maxWidth: "20em", height: "20em" }}  />
                     <div className="mb-2"></div>
                 </div>
-                <div className="card-body text-white d-flex justify-content-between" style={{ backgroundColor: "rgb(245,242,236)", borderBottomLeftRadius: 10, borderBottomRightRadius: 10 }}>
+                <div className="card-body text-white d-flex justify-content-between" style={{ backgroundColor: "rgb(37,37,37)", borderBottomLeftRadius: 10, borderBottomRightRadius: 10 }}>
                     <div>
                         {product.title}
                     </div>
