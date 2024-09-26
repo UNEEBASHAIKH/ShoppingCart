@@ -31,7 +31,7 @@ const Homeproduct = (props) => {
             </div>
             <Link to={"/products/" + product.id}>
                 {ref.current != null ?
-                    <div className='m-5 bg-dark' style={{ position: "absolute", top: "0px", width: "20em", height: height, opacity: 1, borderRadius: 15 }}
+                    <div className='m-5 bg-dark' style={{ position: "absolute", top: "0px", width: "20em", height: height, opacity: 0.5, borderRadius: 20 }}
                         onMouseEnter={(e) => e.target.style.opacity = 0.3}
                         onMouseLeave={(e) => e.target.style.opacity = 0} />
                     :
