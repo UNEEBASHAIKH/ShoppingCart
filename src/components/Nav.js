@@ -5,10 +5,10 @@ const Nav = () => {
     const cart = useSelector((state) => state.cart)
 
     return (
-        <nav className="navbar sticky-top navbar-dark" style={{ backgroundColor: "rgb(102, 0, 51)" }}>
+        <nav className="navbar sticky-top navbar-dark" style={{ backgroundColor: "rgb(232,161,166)" }}>
             <div className="container d-flex justify-content-between">
                 <div className="d-flex align-items-center">
-                    <Link className="navbar-brand fs-4" to="/" style={{ fontFamily: "Rubik Glitch" }}>MoneyMoneyMoney</Link>
+                    <Link className="navbar-brand fs-4" to="/" style={{ fontFamily: "Rubik Glitch" }}>Uneeba's Collection </Link>
                     <div className="nav-item dropdown">
                         <a className="nav-link text-white dropdown-toggle fs-5" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false" style={{ fontFamily: 'Lobster', textDecoration: "none" }}>
